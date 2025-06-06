@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const API_ENDPOINT1 = 'https://ga0m6cyqyj.execute-api.ap-northeast-1.amazonaws.com/shiomi_lambda_function1/';
-const API_ENDPOINT2 = 'https://ga0m6cyqyj.execute-api.ap-northeast-1.amazonaws.com/shiomi_lambda_function2/';
+const API_ENDPOINT1 = 'https://ga0m6cyqyj.execute-api.ap-northeast-1.amazonaws.com/shiomi_lambda_function1';
+const API_ENDPOINT2 = 'https://ga0m6cyqyj.execute-api.ap-northeast-1.amazonaws.com/shiomi_lambda_function2';
 
 function App() {
   const [result, setResult] = useState('結果がここに表示されます');
